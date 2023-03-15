@@ -1,4 +1,4 @@
 data "aws_ami" "centos-8-ami" {
-  arn  = "ami-086cdb9860dc39f6b"
+  name_regex  = "surendra centos8"
   owners      = ["762942456166"]
 }
